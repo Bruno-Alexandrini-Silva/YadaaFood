@@ -15,6 +15,8 @@ export const Container = styled.header`
             font-style: italic;
             font-weight: 700;
 
+            cursor: pointer;
+
             span {
                 color: #fff;
                 font-weight: 400;

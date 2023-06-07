@@ -14,9 +14,17 @@ export const Container = styled.div`
         width: 100%;
     }
 
+    > div {
+        padding: 16px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
     h1 {
         color: #fff;
-        margin-top: 32px;
+       
     }
 
     p {
@@ -43,4 +51,5 @@ export const Container = styled.div`
 
 
     }
+}
 `
