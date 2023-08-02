@@ -4,16 +4,16 @@ import { Home } from "../pages/Home";
 import { Products } from "../pages/Products";
 
 export const router = createBrowserRouter([
-    {
-        path: '/', 
-        element: <Home />
-    },
-    {
-        path: '/cart', 
-        element: <Cart />
-    },
-    {
-        path: '/products', 
-        element: <Products />
-    }
+  {
+    path: '/',
+    element: <Home />
+  },
+  {
+    path: '/cart',
+    element: <Cart />
+  },
+  {
+    path: '/products',
+    element: <Products />
+  }
 ])
